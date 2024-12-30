@@ -10,5 +10,5 @@ keywords = ["shuttle-service", "salvo"]
 [workspace]
 
 [dependencies]
-salvo = "0.75.0"
+salvo = { version = "0.75.0", git = "https://github.com/Samyak2/salvo", branch = "fix-deny-unknown" }
 shuttle-runtime = { path = "../../runtime", version = "0.49.0", default-features = false }
